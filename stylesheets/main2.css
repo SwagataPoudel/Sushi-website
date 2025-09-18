@@ -1,0 +1,330 @@
+#main-menu ul li a {
+    font-size: 20px !important;
+}
+.padding-100.welcome-block {
+    background-color: rgb(97, 23, 23) !important;
+}
+.welcome-block h1 {
+    margin-top: 40px;
+    color: #ffffff;
+}
+span.welcome {
+    color: #ffffff;
+}
+.welcome-block p {
+    color: #b4b2b2;
+}
+
+
+.btn-gold:hover{
+    color: #fff;
+    background-color: #181613;
+    border-color: #16120c;
+}
+.btn-gold {
+    border: 2px solid #d1cbcb;
+}
+a {
+    color: #dad7d7;
+    text-decoration: none;
+}
+.menu_today.dark.padding-100 {
+  background-color: rgb(97, 23, 23) !important; 
+}
+.padding-100.our_menu {
+  background-color: rgb(97, 23, 23) !important; 
+  color: #000; 
+}
+
+/* Footer main container */
+#footer {
+  background: #1a1a1a;  /* dark background */
+  color: #f0f0f0;       /* light text */
+  padding: 60px 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Flex row for footer */
+#footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* Column base */
+#footer .our_location,
+#footer .opening_time {
+  flex: 1;
+  min-width: 280px;
+}
+
+/* Section headings */
+#footer h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: rgb(225, 10, 10);
+  border-bottom: 2px solid #f7c973;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Location details */
+#footer .our_location p,
+#footer .our_location span {
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+/* Social icons */
+#footer .social {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  padding: 0;
+  list-style: none;
+}
+
+#footer .social li a {
+  width: 35px;
+  height: 35px;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  transition: 0.3s;
+}
+
+#footer .social li a:hover {
+  background: rgb(221, 8, 8);
+  color: #1a1a1a;
+}
+
+/* Opening times list */
+#footer .opening_time ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .opening_time li {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  margin: 6px 0;
+  background: #2a2a2a;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+#footer .opening_time li:hover {
+  background: rgb(97, 23, 23);
+  color: #1a1a1a;
+  cursor: default;
+}
+
+#footer .opening_time li p {
+  margin: 0;
+  font-size: 15px;
+}
+
+#footer .opening_time li time,
+#footer .opening_time li span.label {
+  font-weight: bold;
+}
+
+/* Footer logo */
+#footer .footer_logo p {
+  font-family: "Pacifico", cursive; /* Crazy stylish font */
+  font-size: 28px;
+  color: red;
+  letter-spacing: 2px;
+  text-transform: none;
+}
+
+/* Logo text styling */
+#logo .light-logo, .dark-logo {
+  font-family: "Pacifico", cursive;  /* same crazy font */
+  font-size: 30px;
+  color: red;
+  text-decoration: none;
+  letter-spacing: 2px;
+  display: inline-block;
+}
+
+/* Optional hover effect */
+#logo .light-logo:hover , .dark-logo:hover {
+  color: rgb(97, 23, 23);
+}
+
+/* Loader text */
+#loader p {
+  font-family: "Pacifico", cursive; /* Same crazy font */
+  font-size: 32px;
+  color:rgb(153, 31, 31);
+  margin-bottom: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  animation: pulse 1.5s infinite; /* little animation */
+}
+
+/* Optional text animation */
+@keyframes pulse {
+  0%   { transform: scale(1);   opacity: 1; }
+  50%  { transform: scale(1.1); opacity: 0.8; }
+  100% { transform: scale(1);   opacity: 1; }
+}
+#content {
+    background-color: rgb(97, 23, 23) !important; 
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+    color: #e0d9d9;
+}
+.btn.btn-black {
+    background-color: #b17b48 !important;
+    border-color: #d3c9c9 !important;
+}
+.contact-form input, .contact-form select, .contact-form textarea {
+    color: #e7e5e5 !important;
+}
+
+.welcome-block img {
+  width: 1000px !important;
+  height: 480px !important;      /* adjust this value for your preferred height */
+  object-fit: cover !important;  /* crop instead of stretching */
+  border-radius: 12px !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+  transition: transform 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+.welcome-block img:hover {
+  transform: scale(1.05) !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3) !important;
+}
+
+.menu_today figure img {
+  height: 500px !important; /* adjust this value as needed */
+  width: 100%;              /* keep width responsive */
+  object-fit: cover;        /* ensures it doesn't stretch awkwardly */
+}
+
+.blog-content {
+    color: #ffffff !important; /* Makes all text inside white */
+}
+
+.blog-content a {
+    color: #ffffff !important; /* Ensures links are also white */
+}
+
+.blog-content .category,
+.blog-content .links i,
+.blog-content .links a,
+.blog-content .links span {
+    color: #ffffff !important; /* Ensures category, icons, and links are white */
+}
+.events {
+    color: #ffffff !important; /* Makes all text white */
+}
+
+.events p {
+    color: #ffffff !important; /* Ensures paragraph text is white */
+}
+
+/* If you have links inside the events section */
+.events a {
+    color: #ffffff !important; /* Makes links white */
+}
+
+/* Optional: for any other elements inside */
+.events span,
+.events div,
+.events i {
+    color: #ffffff !important;
+}
+#calendar {
+    background-color: #ffffff !important; /* Makes calendar background white */
+    color: #000000 !important; /* Optional: sets text back to black so it’s readable */
+}
+
+/* Optional: for inner calendar cells if needed */
+#calendar td,
+#calendar th,
+#calendar .day,
+#calendar .date {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+}
+
+/* Make all text inside the contact form white */
+.contact-form,
+.contact-form input,
+.contact-form textarea,
+.contact-form button,
+.contact-form .done {
+    color: #ffffff !important;
+}
+
+/* Optional: make placeholders white too */
+.contact-form ::placeholder {
+    color: #ffffff !important;
+}
+
+/* Optional: button text */
+.contact-form button {
+    color: #ffffff !important;
+}
+
+.our-menu-slider .item img {
+  width: 100% !important;   /* make it responsive */
+  max-width: 800px !important; /* same max width */
+  height: 600px !important;   /* fixed height */
+  object-fit: cover !important; /* crop instead of stretch */
+  display: block;
+  margin: 0 auto; /* center inside container */
+}
+
+.padding-100.our_menu{
+  padding: 0px !important;
+}
+
+.menu_grid img {
+  width: 100% !important;
+  height: 250px !important; 
+  object-fit: cover !important; 
+  display: block !important;
+}
+
+.our_menu {
+  position: relative;
+  background: #7b0000; 
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+  z-index: 2;
+}
+
+.latest_news {
+  position: relative;
+  background: #f5f5f5;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+.head_title h1 {
+  color: #ffffff; 
+}
+span.welcome {
+    color: #ffffff; 
+}
+.icon-intro {
+    display: block;
+    color: #ffffff; 
+    font-size: 40px;
+}
+
+.background8{
+  height: fit-content !important;
+}
